@@ -1,5 +1,8 @@
 <template>
-	<h1>Hello word</h1>
+	<div class="container">
+		<h1>Hello word</h1>
+		<p>Teste</p>
+	</div>
 </template>
 
 

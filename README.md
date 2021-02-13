@@ -22,13 +22,26 @@ A versão mais recente do Sublime corrigiu esse problema, clique em Preferência
 - Plugins
 	- Vue
 	- Vetur
-- Sigle file components
-##### Instant Prototyping
+
+##### Sigle file components
 - npm install -g @vue/cli @vue/cli-service-global
 - vue serve
+- http://localhost:8080/
 
-##### Data binding
-- 
+##### 02 - Data binding
+- two way data binding
+- v-bind:style="color"
+- data: () => ({ color: 'green' })
+- ou   :style="color"
+
+##### 03 - Diretivas
+- v-if
+- v-else
+- v-for
+- cria novas diretivas, tem que esta dentro do export default
+	- directives: {			estaLa: focus		}
+	- <input type="text" v-estaLa>
+
 
 ##### v2
 - options API
